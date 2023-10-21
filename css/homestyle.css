@@ -1,0 +1,107 @@
+.home-container {
+  background-image: url("../img/home_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.heading {
+  padding-top: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  border: 1px solid var(--text);
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  cursor: pointer;
+}
+.profile i {
+  width: 3.6rem;
+  font-size: 2.4rem;
+  color: var(--primary);
+}
+.profile span {
+  width: 3.6rem;
+  font-size: 1.6rem;
+  color: var(--text);
+}
+.unit {
+  border: 1px solid var(--text);
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.unit img {
+  width: 3.6rem;
+}
+.unit span {
+  font-size: 1.6rem;
+  color: var(--text);
+}
+.unit a {
+  width: 3.6rem;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 2.4rem;
+}
+
+/* Main Section */
+.main {
+  display: flex;
+  padding-top: 2.4rem;
+}
+.category {
+  width: 30%;
+  border-right: 1px solid var(--text);
+  padding: 1.6rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.category button {
+  width: 80%;
+  padding: 1.2rem 0;
+  cursor: pointer;
+  border-radius: 0.9rem;
+  transition: 0.3s;
+  font-size: 1.6rem;
+}
+.category button:hover {
+  background-color: var(--primary);
+}
+.subCat {
+  width: 65%;
+  padding-left: 1.6rem;
+}
+
+.card {
+  border: 1px solid var(--text);
+  width: 100%;
+  height: 22rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: center;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+.card img {
+  width: 80%;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+}
+.money img,
+.history img,
+.about img,
+.setting img {
+  width: 10rem;
+  cursor: pointer;
+}

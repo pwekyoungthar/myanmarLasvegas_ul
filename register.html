@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Myanmar Lasvegas</title>
+
+    <!-- Fontawesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS Link -->
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -35,8 +45,20 @@
             class="confirmpassword"
             placeholder="Please Enter Your Password Again"
           />
-          <button class="btn">Create Account</button>
+          <button class="btn show-userId">Create Account</button>
         </form>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="popup-info">
+          <p>Your User ID is - 12345678 <i class="fa-solid fa-copy"></i></p>
+          <p>Please Don't Share This ID</p>
+        </div>
       </div>
     </div>
     <script src="./js/script.js"></script>

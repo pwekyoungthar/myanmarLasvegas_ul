@@ -69,3 +69,60 @@ input {
 .register_a:hover {
   color: var(--primary-shade);
 }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-image: url(../img/background_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  height: 20rem;
+  border: 2px solid white;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.popup-info {
+  padding: 4.8rem 3.2rem 0;
+}
+.popup-info p {
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+.popup-info p i {
+  padding-left: 1.6rem;
+  cursor: pointer;
+  color: var(--primary);
+  transition: 0.3s;
+}
+.popup-info p i:hover {
+  color: var(--primary-shade);
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
