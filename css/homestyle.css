@@ -88,6 +88,7 @@
   text-align: center;
   padding: 0.8rem;
   cursor: pointer;
+  border-radius: 0.9rem;
 }
 .card img {
   width: 80%;

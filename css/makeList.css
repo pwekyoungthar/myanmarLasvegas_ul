@@ -1,0 +1,151 @@
+.makeList_layout {
+  background-image: url(../img/background_img.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding: 2.4rem;
+}
+.makeList_container {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+}
+.make_leftside {
+  position: fixed;
+  width: 25%;
+  height: 99%;
+  border-right: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  padding: 2.4rem 0;
+}
+.main_balance {
+  padding: 2rem;
+  width: 80%;
+  background-color: #a5f3fc;
+  border-radius: 8px;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+.bet_balance {
+  width: 80%;
+  outline: none;
+  border-radius: 8px;
+  font-size: 2rem;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 2rem;
+  background: none;
+}
+
+.left_time {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+.left_time-box {
+  padding: 1.2rem;
+  width: 20rem;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.r_container {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.r_container span {
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.make_btn {
+  margin-top: 3.2rem;
+  width: 80%;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+  border-radius: 8px;
+  padding: 3.2rem 0;
+}
+
+.make_btn button {
+  width: 22rem;
+  padding: 1.6rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn_select {
+  background-color: #f97316;
+}
+
+.btn_bet {
+  background-color: #ef4444;
+}
+
+.twod_no_list {
+  margin-left: 35%;
+  width: 100%;
+  height: 95%;
+  overflow-y: auto;
+  padding: 2.4rem;
+  overflow-x: hidden;
+}
+.twod_no_container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2.4rem;
+}
+.twod_no_box {
+  width: 100%;
+}
+
+.no_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.no_card span {
+  padding: 2.4rem;
+  background-color: #fff;
+  color: #333;
+  font-size: 2rem;
+  border-radius: 8px;
+}
+
+.line {
+  background-color: #333;
+  height: 5px;
+}
+.progess {
+  width: 50%;
+  background-color: green;
+  height: 100%;
+}
